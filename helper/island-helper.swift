@@ -1114,7 +1114,9 @@ private struct IslandConversationHistory: View {
 
     private var scrollContent: some View {
         ScrollView(.vertical) {
-            LazyVStack(alignment: .leading, spacing: 10) {
+            // Scroll-to-tail needs measured Markdown heights. LazyVStack can leave
+            // the viewport on an unrendered estimated spacer for long messages.
+            VStack(alignment: .leading, spacing: 10) {
                 header
                     .background {
                         GeometryReader { geo in
