@@ -1,5 +1,5 @@
 {
-  "name": "@yinany79-alt/dsh-island-bridge",
+  "name": "@yinanyang/dsh-island-bridge",
   "version": "0.2.0",
   "description": "macOS 灵动岛桥接：把 DeepSeek Harness 的会话状态与待审批操作投影到原生 SwiftUI 刘海面板，在岛上直接裁决与跳转",
   "keywords": [
@@ -64,5 +64,9 @@
   },
   "contributors": [
     "JiayangSUNwinter (original author)"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

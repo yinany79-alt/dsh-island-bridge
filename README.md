@@ -2,7 +2,7 @@
 
 让 DeepSeek Harness 的会话、交付通知和审批出现在 macOS 灵动岛上。
 
-![展开、阅读对话、交付通知与快捷审批](assets/island-flow.gif)
+![展开、阅读对话、交付通知与快捷审批](https://raw.githubusercontent.com/yinany79-alt/dsh-island-bridge/main/assets/island-flow.gif)
 
 ## 能做什么
 
@@ -21,13 +21,15 @@
 
     xcode-select --install
 
-在 DSH 插件管理中使用 GitHub 源地址：
+在 DSH 插件管理中输入 npm 包名：
 
-    github:yinany79-alt/dsh-island-bridge
+    @yinanyang/dsh-island-bridge
 
 也可以通过终端安装到桌面 profile：
 
-    dsh plugin --profile desktop add github:yinany79-alt/dsh-island-bridge
+    dsh plugin --profile desktop add @yinanyang/dsh-island-bridge
+
+源码安装也可使用 `github:yinany79-alt/dsh-island-bridge`。安装前先完全退出 DSH。
 
 重启 DSH。首次启用时会在本机编译 Swift 原生面板。
 
@@ -39,11 +41,11 @@
 
 | 最近会话 | 对话历史 |
 | --- | --- |
-| ![最近会话](assets/island-sessions.png) | ![Markdown 与折叠过程](assets/island-conversation.png) |
+| ![最近会话](https://raw.githubusercontent.com/yinany79-alt/dsh-island-bridge/main/assets/island-sessions.png) | ![Markdown 与折叠过程](https://raw.githubusercontent.com/yinany79-alt/dsh-island-bridge/main/assets/island-conversation.png) |
 
 | 交付通知 | 快捷审批 |
 | --- | --- |
-| ![未读交付](assets/island-notification.png) | ![审批操作](assets/island-approval.png) |
+| ![未读交付](https://raw.githubusercontent.com/yinany79-alt/dsh-island-bridge/main/assets/island-notification.png) | ![审批操作](https://raw.githubusercontent.com/yinany79-alt/dsh-island-bridge/main/assets/island-approval.png) |
 
 截图与动图使用公开示例会话和演示用量。
 
